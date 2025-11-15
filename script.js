@@ -59,4 +59,9 @@ form.addEventListener("submit", function (dets) {
 
   let bulk = document.querySelector("#bulk");
   bulk.textContent = bulkingCalories;
+
+  ageElem.value = ''
+  weightElem.value = ''
+  heightElem.value = ''
 });
+
